@@ -1,0 +1,10 @@
+scoreboard players set @s taxed_base_0 0
+scoreboard players set @s taxed_base_1 0
+scoreboard players set @s taxed_base_2 0
+scoreboard players set @s taxed_base_3 0
+scoreboard players set @s taxed_base_4 0
+scoreboard players set @s taxed_base_5 0
+scoreboard players set @s taxed_base_6 0
+scoreboard players set @s taxed_base_7 0
+scoreboard players set @s taxed_base_8 0
+scoreboard players set @s taxed_base_9 0

@@ -1,0 +1,21 @@
+scoreboard players set @s taxed_uses_0 0
+scoreboard players set @s taxed_uses_1 0
+scoreboard players set @s taxed_uses_2 0
+scoreboard players set @s taxed_uses_3 0
+scoreboard players set @s taxed_uses_4 0
+scoreboard players set @s taxed_uses_5 0
+scoreboard players set @s taxed_uses_6 0
+scoreboard players set @s taxed_uses_7 0
+scoreboard players set @s taxed_uses_8 0
+scoreboard players set @s taxed_uses_9 0
+
+scoreboard players set @s taxed_sales_0 0
+scoreboard players set @s taxed_sales_1 0
+scoreboard players set @s taxed_sales_2 0
+scoreboard players set @s taxed_sales_3 0
+scoreboard players set @s taxed_sales_4 0
+scoreboard players set @s taxed_sales_5 0
+scoreboard players set @s taxed_sales_6 0
+scoreboard players set @s taxed_sales_7 0
+scoreboard players set @s taxed_sales_8 0
+scoreboard players set @s taxed_sales_9 0
