@@ -3,6 +3,7 @@ scoreboard players enable @a _tax_rate
 
 # delete possible garbage from server crash
 kill @e[tag=tax_bell_finder]
+tag @e[type=minecraft:item,tag=tax_payment] remove tax_payment
 
 execute as @a at @s unless score @s set_tax_rate matches 0 run function village_taxes:player/menu
 execute as @a at @s unless score @s _tax_rate matches 0.. run function village_taxes:player/remove_tax

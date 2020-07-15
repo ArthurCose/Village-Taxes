@@ -46,7 +46,6 @@ scoreboard players operation $tax_payment taxed_sales_0 *= @s _tax_rate
 scoreboard players operation $tax_payment taxed_sales_0 /= $100 taxed_base_0
 
 ### pay tax
-execute store result storage village_taxes:temp payment_amount byte 1 run scoreboard players get $tax_payment taxed_sales_0
-function village_taxes:villager/tax/pay_tax
+execute if score $tax_payment taxed_sales_0 matches 1.. run function village_taxes:villager/tax/pay_tax
 
 function village_taxes:villager/reset_counters
