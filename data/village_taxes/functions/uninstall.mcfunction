@@ -1,4 +1,5 @@
 scoreboard objectives remove set_tax_rate
+scoreboard objectives remove get_tax_rate
 scoreboard objectives remove _tax_rate
 
 scoreboard objectives remove taxed_uses_0

@@ -1,4 +1,5 @@
 scoreboard objectives add set_tax_rate trigger
+scoreboard objectives add get_tax_rate trigger
 scoreboard objectives add _tax_rate dummy
 
 scoreboard objectives add taxed_uses_0 dummy
