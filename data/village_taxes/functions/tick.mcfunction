@@ -8,6 +8,7 @@ tag @e[type=minecraft:item,tag=tax_payment] remove tax_payment
 execute as @a at @s unless score @s get_tax_rate matches 0 run function village_taxes:player/get_tax
 execute as @a at @s if score @s set_tax_rate matches 1 run function village_taxes:player/menu
 execute as @a at @s if score @s set_tax_rate matches 2 run function village_taxes:player/remove_tax
+execute as @a at @s if score @s set_tax_rate matches 3.. run function village_taxes:player/unknown_command
 execute as @a at @s if score @s set_tax_rate matches ..-1 run function village_taxes:player/set_tax
 
 # exclude villagers from the villager employee datapack, wrestle with their employers over that
