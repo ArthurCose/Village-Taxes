@@ -1,5 +1,5 @@
 kill @e[type=minecraft:armor_stand,tag=tax_bell_finder]
-summon minecraft:armor_stand ~ ~ ~ {Tags: ["tax_bell_finder"], Invisible: true, Invulnerable: true, NoGravity: true, Marker: true}
+summon minecraft:armor_stand ~ ~ ~ {Tags: ["tax_bell_finder"], Invisible: true, Invulnerable: true, NoGravity: true, Marker: true, Silent: true}
 
 scoreboard players set $found_bell taxed_base_0 0
 
